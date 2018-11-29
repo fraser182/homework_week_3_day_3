@@ -1,3 +1,3 @@
-createdb space_cowboys
-psql -d space_cowboys -f db/space_cowboys.sql
+createdb space_cowboys </br>
+psql -d space_cowboys -f db/space_cowboys.sql </br>
 ruby console.rb
