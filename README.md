@@ -14,6 +14,14 @@ An entry in the bounty table must have a selection of 4 of these properties:
 - cashed_in
 - collected_by
 
+### Setup and Run
+
+```
+createdb space_cowboys 
+psql -d space_cowboys -f db/space_cowboys.sql 
+ruby console.rb
+```
+
 ## Getting Started Checklist
 
 1. Set up your directory structure
